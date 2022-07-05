@@ -1,0 +1,23 @@
+<div align="center">
+    <h3> User Details</h3>
+    <table border="1">
+        <thead>
+            <tr>
+                <th> ID      </th>
+                <th> Name    </th>
+                <th> Balance </th>
+                
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr *ngFor="let user1 of user">
+                <td> {{user1.accno}} </td>
+                <td> {{user1.accname}} </td>
+                <td> {{user1.accbalance}} </td>
+                            
+            </tr>
+                
+        </tbody>      
+    </table>
+ </div>
